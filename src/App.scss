@@ -1,0 +1,200 @@
+.App{
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   
+}
+
+button{
+    margin: 1rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.themeButton{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    font-family: 'Share Tech Mono', monospace;
+
+}
+
+
+.pageDiv{
+    width: 100%;
+    height: 100%;
+
+}
+
+.listContainer{
+    margin: 0;
+    padding-top: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45vh;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.739);
+    margin: 1rem;
+    box-shadow: 0 0 10px red;
+    &__title{
+        font-family: "Montserrat" , sans serif;
+        font-size: 1rem;
+    }
+    &__image{
+        width: 95%;
+        border-radius: 10px;
+        border: 5px solid black;
+
+    }
+    &__date{
+        font-size:1rem;
+        font-family:  'Share Tech Mono', monospace;
+    }
+}
+
+.podCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.739);
+    margin: 1rem;
+    box-shadow: 0 0 10px red;
+    &__title{
+        font-family: "Montserrat" , sans serif;
+        font-size: 1rem;
+    }
+    &__image{
+        max-width: 98%;
+        max-height: 70vh;
+        border-radius: 10px;
+        border: 5px solid black;
+
+    }
+    &__date{
+        font-size:1rem;
+        font-family:  'Share Tech Mono', monospace;
+    }
+    &__text{
+        text-align: justify;
+        padding: 0.5rem 1.5rem;
+    }
+}
+
+.camerasDiv{
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    padding: 1.3rem 0;
+
+}
+
+.buttonsDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+
+    &__button{
+        font-family: 'Share Tech Mono', monospace;
+        color: black;
+        width: 230px;
+        border: none;
+        border-radius: 20px;
+        background-color: #49eaff;
+    }
+}
+
+.fullImage{
+    width: 70%;
+    border-radius: 10px;
+}
+
+.headerDiv{
+    font-family: 'Audiowide', cursive;
+    padding-top: 5rem;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    
+    &__title{
+        font-size: 3rem;
+    }
+    &__subdiv{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #ffb62e;
+    
+    }
+    &__image{
+
+ 
+        max-width: 30%;
+        transform: scaleX(-1);
+    }
+    &__text{
+        max-width: 80%;
+        text-align: justify;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 3px;
+        color: white;
+        padding-bottom: 1rem;
+    }
+    &__loadingimage{
+        text-align: center;
+    }
+}
+
+.navBar{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 0 5rem;
+    height: 64px;
+    font-family: "Audiowide", sans-serif;
+    z-index: 1;
+    &__logo{
+        margin-left: 0.5rem;
+        color: #311406d3;
+    }
+}
+
+.noPhotosDiv{
+    width: 50%;
+    height: 100%;   
+    margin: 2rem;
+    border-radius: 55px;
+
+}

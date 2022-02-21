@@ -1,0 +1,42 @@
+.homeDiv{
+    height: 100%;
+    padding-top: 5rem;
+     
+    &__title{
+        font-family: 'Audiowide', cursive;
+        font-size: 4rem;
+        background-color: rgba(0, 0, 0, 0);
+        letter-spacing: 2px;
+        font-weight: 100;
+        margin: -1rem auto;
+        
+        &--red{
+            font-size: 6rem;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+    }
+    &__image{
+        width: 500px;
+    }
+    &__subtitle{
+        text-align: left;
+        font-family: 'Audiowide', cursive;
+        font-size: 1.5rem;
+        font-weight: 100;
+        margin: -1rem auto;
+        padding: 2rem 6rem;
+        &__p{
+            font-family: "Montserrat", sans-serif;
+            font-size: 1rem;
+        }
+    }
+}
+
+@keyframes glow {
+    from {
+    text-shadow:  0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffffff, 0 0    5px #e0e0e0, 0 0 50px #f0f0f0, 0 0 6px #c7c7c7, 0 0 70px #e67b00;
+    }
+    to {
+    text-shadow:  0 0 10px #fff, 0 0 20px #c2c2c2, 0 0 30px #ffffff, 0 0 5px #d4d4d4, 0 0 60px #dadada, 0 0 8px #e0e0e0, 0 0 80px #00fff2;
+    }
+    }
