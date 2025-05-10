@@ -1,6 +1,10 @@
 # 🚀 Eyes on Mars
 
+<div align="center">
+
 ![Mars Rover](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/640px-OSIRIS_Mars_true_color.jpg)
+
+</div>
 
 ## Overview
 
